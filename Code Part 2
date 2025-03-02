@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Text Styles</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .white-box {
+            background-color: white;
+            padding: 6px;
+            margin: 10px;
+            display: inline-block;
+            color: black;
+        }
+        .price-change {
+            font-size: 16px;
+            color: green;
+        }
+        .price-after-hours {
+            font-size: 16px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="white-box" style="font-family: Tahoma, sans-serif; font-size: 24px; font-weight: bold;">
+        <p>This is Tahoma Font</p>
+    </div>
+
+    <div class="white-box" style="font-family: Arial, sans-serif; font-size: 24px; font-weight: bold;">
+        <p style="margin: 5px 0;">Biggest Deals of the Year!</p>
+        <p style="font-size: 15px; font-weight: 100; color: rgb(230, 22, 22); margin: 5px 0;">
+            <i>Sales end Tuesday</i>
+        </p>
+    </div>
+
+    <div class="white-box" style="font-family: Verdana, sans-serif; font-size: 12px; font-weight: normal;">
+        <p style="font-size: 16px; font-weight: bold; margin: 5px 0;">HTML CSS Course</p>
+        <p style="font-weight: 100; color: rgb(122, 118, 118); margin: 10px 0;">Beginner to Pro.</p>
+        <p style="margin: 5px 0;">In this course, we'll learn the skills</p>
+        <p style="margin: 5px 0;">you need to become a developer.</p>
+        <button style="font-size: 12px; text-transform: uppercase; background-color: rgb(19, 19, 19); color: white; padding: 5px 10px; border: none; margin-top: 10px;">Get Started</button>
+    </div>
+
+    <div class="white-box" style="font-family: Arial, sans-serif; font-size: 11px; text-align: center;">
+        <p style="font-size: 22px; font-weight: bold; margin: 5px 0;">Shopping for your business?</p>
+        <p style="margin: 5px 0;">See how Apple at Work can help.</p>
+        <p style="font-size: 14px; color: rgb(145, 182, 207); margin: 5px 0;">Learn more ></p>
+    </div>
+
+    <div class="white-box" style="font-family: Arial, sans-serif; text-align: center;">
+        <span style="font-size: 10px; color: rgb(233, 22, 22); margin: 5px 0;">New</span><br>
+        <span style="font-size: 14px; font-weight: bold; margin: 5px 0;">MacBook Pro</span><br>
+        <span style="font-size: 22px; font-weight: bold; margin: 5px 0;">Supercharged for pros.</span><br>
+        <span style="font-size: 16px; font-weight: lighter; margin: 8px 0;">From $1999</span><br>
+        <button style="font-size: 12px; background-color: rgb(8, 92, 111); color: white; padding: 5px 10px; border: none; margin-top: 10px;">Buy</button>
+    </div>
+
+    <div class="white-box" style="font-family: Arial, sans-serif; font-weight: lighter;">
+        <span style="font-size: 28px; font-weight: normal;">1,049.61 USD</span><br>
+        <span style="font-size: 12px; color: rgb(110, 110, 110);">USD</span><br>
+        <span class="price-change" style="font-size: 16px;">+18.05 (1.75%) today</span><br>
+        <span style="color: rgb(109, 109, 109); font-size: 11px;">After hours</span><br>
+        <span class="price-after-hours" style="font-size: 11px;">-1.61 (0.15%)</span>
+    </div>
+
+</body>
+</html>
